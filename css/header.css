@@ -1,0 +1,78 @@
+.header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 241px;
+    right: 0;
+    background-color: rgb(19, 19, 19);
+    height: 65px;
+}
+.left-side{
+    margin-left: 30px;
+    flex: 1;
+    min-width: 20px;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    width: 560px;
+}
+.right-side button{
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-right: 12px;
+    transition: scale 0.19s;
+   
+}
+.right-side p{
+    color: rgb(170, 170, 170);
+    font-weight: 700;
+    font-size: 1rem;
+    transition: scale 0.25s;
+    letter-spacing: 3px;
+    margin-right: 12px;
+
+}
+.right-side p:hover{
+    transform: scale(1.09);
+    color: white;
+}
+.sign-up{
+    padding: 15px;
+    color: rgb(170, 170, 170);
+    background-color: rgba(255, 255, 255, 0);
+    transition: color,transform 0.25s;
+}
+.login{
+    padding: 15px 33px;
+}
+.right-side button:hover{
+    transform: scale(1.09);
+}
+.left,.right{
+    fill: rgb(170, 170, 170);
+    transition: fill 0.23s;
+}
+.left-side button{
+    margin-right: 10px;
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    background-color: rgb(0, 0, 0);
+}
+.left:hover,.right:hover{
+    fill: white;
+}
+.sign-up:hover{
+    color: white;    
+}
+
+.line{
+    background: #fff;
+    height: 26px;
+    margin: 16px;
+    width: 1.5px;
+}

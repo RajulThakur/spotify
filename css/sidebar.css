@@ -1,0 +1,116 @@
+.sidebar{
+    position: fixed;
+    width: 241px;
+    top: 0;
+    bottom: 48px;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding-top: 23px;
+
+}
+.top{
+    height: 47px;
+    padding: 0 24px;
+    margin-bottom: 18px;
+}
+.spotify-logo{
+    width: 131px;
+    color: white;
+}
+.sidebar p{
+    color: rgb(173, 173, 173);
+    transition: fill 0.33s;
+    margin-left: 18px;
+}
+.sidebar p:hover{
+    color: white;
+    cursor: pointer;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    padding: 0 19px;
+    height: 40px;
+    font-size: 14px;
+}
+.-icon{
+    fill: rgb(173, 173, 173);
+    transition: fill 0.33s;
+}
+.-icon:hover{
+    fill: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.plus{
+    fill: black;
+}
+.heart{
+    fill: white;
+}
+.third button{
+    height: 24px;
+    width: 24px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center
+}
+.playlist-button{
+    background-color: rgb(173, 173, 173);
+    transition: background-color 0.33s;
+}
+.playlist-button:hover{
+    background-color: white;
+}
+.like-button{
+    background: linear-gradient(135deg,#450af5,#c4efd9);
+    opacity: 0.84;
+    transition: opacity 0.33s;
+}
+.like-button:hover{
+    opacity: 1;
+}
+.third{
+    flex: 1;
+    margin-top: 25px;
+}
+.four{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    font-size: 11px;
+    padding-left: 24px;
+}
+.four span{
+    color: rgb(173, 173, 173);
+    margin-right: 12px;
+}
+
+.lang-button{
+    padding: 6px 15px 6px 3px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: white;
+    margin: 54px 20px;
+    transition: scale 0.33s;
+}
+.lang-button:hover{
+    transform: scale(1.1);
+    border-width: 1.5px;
+}
+
+.global{
+    fill: white;
+    margin: 3px 9px 3px 0px;
+}
+

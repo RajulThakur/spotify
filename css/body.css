@@ -1,0 +1,14 @@
+body{
+    font-family: roboto,arial;
+    position: absolute;
+    margin: 0;
+    top: 65px;
+    right: 0px;
+    left: 241px;
+    padding:10px 32px 24px 32px;
+    background-color: rgb(30, 30, 30);
+    
+}
+button{
+    border: none;
+}
