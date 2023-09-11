@@ -35,6 +35,7 @@
     height: 258px;
     width: 177px;
     border-radius: 8px;
+    position: relative;
 }
 .thumbnail-image{
     width: 177px;
@@ -50,4 +51,21 @@
     color: rgb(175, 175, 175);
     font-size: 13px;
     line-height: 22px;
+}
+.play-pause-button{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(29, 233, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 25px;
+    bottom: 105px;
+
+}
+.play-svg{
+    fill: black;
 }
