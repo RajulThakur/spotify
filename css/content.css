@@ -37,6 +37,19 @@
     border-radius: 8px;
     position: relative;
 }
+.button-container:hover{
+    animation: playButtonAnimation 300ms ease-out;
+}
+@keyframes playButtonAnimation {
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform:translateY(0px);
+        opacity: 1;
+    }
+}
 .thumbnail-image{
     width: 177px;
     border-radius: 4px;
@@ -52,8 +65,12 @@
     font-size: 13px;
     line-height: 22px;
 }
-.play-pause-button{
+.button-container{
     position: absolute;
+    right: 25px;
+    bottom: 105px;
+}
+.play-pause-button{
     height: 50px;
     width: 50px;
     border: none;
@@ -62,9 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 25px;
-    bottom: 105px;
-
+    opacity: 0;
 }
 .play-svg{
     fill: black;

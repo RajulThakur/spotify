@@ -96,10 +96,11 @@
 
         </div>
 
-        <div class="bottom-bar">
+        <div class="bottom-bar js-bottom-bar">
             <div class="para">
                 <p class="p1">PREWIEW OF SPOTIFY</p>
                 <p class="p2">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+                <button class="close-button js-close-button">X</button>
             </div>
 
             <button class="sign-up-button">Sign up free</button>
@@ -118,11 +119,11 @@
                     <img class="thumbnail-image" src="thumbnail/ab67706f00000002ca5a7517156021292e5663a6.jpeg">
                     <p class="song-title">Peaceful Piano</p>
                     <p class="song-description">Relax and indulge with beautiful piano pieces</p>
-                    <button class="play-pause-button">
-                        <svg class="play-svg" role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
-                    </button>
-
-
+                    <div class="button-container">
+                        <button class="play-pause-button">
+                            <svg class="play-svg" role="img" height="24" width="24" aria-hidden="true" viewBox="0 0 24 24" data-encore-id="icon"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg>
+                        </button>
+                    </div>
                 </div>
 
                 <div class="thumbnail">
@@ -288,7 +289,7 @@
         <div class="line2"></div>
         <p class="type">© 2023 Spotify AB</p>
 
-        
+    <script src="javascript/bottombar.js"></script>
     </body>
 
 

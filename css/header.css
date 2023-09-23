@@ -46,10 +46,14 @@
     transition: color,transform 0.25s;
 }
 .login{
-    padding: 15px 33px;
+    padding: 15px 20px;
 }
 .right-side button:hover{
-    transform: scale(1.09);
+    transform: scale(1.08);
+    
+}
+.right-side button{
+    transition: transform 0.1s;
 }
 .left,.right{
     fill: rgb(170, 170, 170);
