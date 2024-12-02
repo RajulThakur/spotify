@@ -84,3 +84,14 @@
 .play-svg{
     fill: black;
 }
+
+@media (max-width: 768px) {
+    .thumbnail-list {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .thumbnail {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
